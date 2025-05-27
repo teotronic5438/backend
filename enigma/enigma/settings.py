@@ -102,13 +102,14 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'es-ar'
 
-TIME_ZONE = 'UTC'
+# TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Argentina/Buenos_Aires'  # Zona horaria argentina
 
-USE_I18N = True
-
-USE_TZ = True
+USE_I18N = True                # Activar la internacionalización
+USE_L10N = True                # Activar la localización (formato de números/fechas)
+USE_TZ = True                  # Usar zonas horarias (True si usás campos datetime con timezone)
 
 
 # Static files (CSS, JavaScript, Images)
