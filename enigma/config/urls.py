@@ -25,5 +25,6 @@ urlpatterns = [
     path('api/remitos/', include('apps.remitos.urls')),
     path('api/ordenes/', include('apps.ordenes.urls')),
     path('api/logistica/', include('apps.logistica.urls')),
+    #path('productos/', include('apps.productos.urls')),
 ]
 
